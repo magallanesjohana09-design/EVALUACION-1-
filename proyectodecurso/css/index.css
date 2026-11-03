@@ -1,0 +1,107 @@
+header{
+    background-color: #ff0090;
+    border-bottom: 1px solid #989797;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.menunav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0d0d0d;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(244, 244, 250);
+    font-weight: bold;
+}
+
+
+nav a:hover{
+    text-decoration: none;
+    color: #7c7ce0;
+    font-weight: bold;
+}
+
+
+.hero{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1{
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 25px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+footer{
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: auto;
+}
+
+footer p{
+    color: #aaa;
+    font-size: 14px;
+}
+
+.tarjetas{
+    padding: 50px 0;
+    background-color: #ff0090;
+}
+
+
+.titulo{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+
+.contenedor-tarjetas{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.tarjeta{
+    background-color: #000000;
+    border: 1px solid #7f7f7f;
+    padding: 25px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+}
